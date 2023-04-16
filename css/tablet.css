@@ -1,0 +1,38 @@
+/* tablet */
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  body {
+  }
+  .avatar {
+    display: none !important;
+  }
+  .mttt {
+    gap: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 40px !important;
+  }
+  .name {
+    display: none;
+  }
+  .job-item {
+    margin: 0px;
+  }
+  .banner1 {
+    background-position: center;
+  }
+  .allproject {
+    gap: 0px !important;
+  }
+  .project div {
+    display: block;
+  }
+  .chungchi1 {
+    display: block;
+  }
+  .chungchi1 .anh {
+    width: 100%;
+  }
+  .footer{
+    gap: 20px;
+    margin-left: 100px;
+  }
+}

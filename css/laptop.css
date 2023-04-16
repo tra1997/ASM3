@@ -1,0 +1,341 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+img {
+  width: 100%;
+  display: block;
+}
+i {
+  color: #199cdb;
+}
+.banner1 {
+  background-image: url("../images/banner.jpg");
+  height: 350px;
+  min-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#nav-bar {
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+}
+#nav-bar .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#nav-bar .container a {
+  padding: 30px 10px;
+  color: black;
+  text-decoration: none;
+  border-left: 1px solid #d0d0d0;
+}
+#nav-bar .container a:nth-child(2),
+#nav-bar .container a:nth-child(5) {
+  border-right: 1px solid #d0d0d0;
+}
+#nav-bar .container a i {
+  color: #199cdb;
+}
+.name {
+  width: 200px;
+  position: relative;
+}
+.avatar {
+  position: absolute;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -30px;
+}
+.avatar img {
+  border-radius: 50%;
+  border: 10px solid white;
+}
+#about .container {
+  display: flex;
+  flex-direction: row;
+}
+
+#target,
+#personal-info {
+  width: 50%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#target {
+  padding-right: 50px;
+}
+#personal-info {
+  padding-left: 50px;
+}
+#personal-info ul {
+  list-style-type: none;
+}
+/* tao cac cot so thich-kinh nghiem hoc van ...*/
+#job-info {
+  margin: 40px 0;
+}
+/* #job-info .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+} */
+.job-item {
+  border: 1px solid #d0d0d0;
+  box-shadow: 1px 1px 5px #d0d0d0;
+}
+.job-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  font-size: 24px;
+}
+.job-header i {
+  font-size: 36px;
+  color: gray;
+}
+.work-detail {
+  padding: 20px 40px;
+}
+.name-work {
+  position: relative;
+}
+.name-work::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  left: -25px;
+  width: 10px;
+  height: 10px;
+  background-color: #199cdb;
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+.time-line h5 {
+  font-style: italic;
+  font-weight: unset;
+  padding: 10px 0px;
+  color: gray;
+}
+
+.recent {
+  background-color: #199cdb;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 10px;
+}
+.work-content h5,
+.hobbies-item h5 {
+  line-height: 1.8;
+  font-weight: unset;
+  color: gray;
+}
+.hobbies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px 40px;
+}
+.hobbies-item {
+  text-align: center;
+}
+.hobbies-item i {
+  width: 50px;
+  color: #199cdb;
+  font-size: 24px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.language,
+.skill {
+  padding: 20px 40px;
+}
+.rate {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px 0px;
+  gap: 20px;
+}
+.rate div.active {
+  height: 4px;
+  background-color: #199cdb;
+}
+.rate div.non-active {
+  height: 4px;
+  background-color: #d0d0d0;
+}
+.content {
+  border: 2px rgb(226, 221, 221) solid;
+  padding: 30px;
+}
+.icon {
+  display: flex;
+}
+.phanchu {
+  width: 75%;
+  font-size: 35px;
+}
+.icon i {
+  font-size: 60px;
+}
+/* SO THICH */
+.icon_sothich {
+  display: flex;
+  gap: 35px;
+}
+.icon_sothich i {
+  font-size: 35px;
+  border-radius: 50%;
+
+  border: 2px solid #14539b;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phanchu_sothich {
+  display: flex;
+  gap: 45px;
+}
+/* KỸ NĂNG VÀ NGÔN NGỮ */
+.level-done {
+  background-color: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.level-no {
+  background-color: #c5c9cc;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+/*  CHỨNG CHỈ & GIẢI THƯỞNG */
+
+/* borđẻ botom cho row dau tien thoi */
+.chungchi .row:first-child {
+  border-bottom: 1px solid #d6c08d;
+}
+.chungchi1 {
+  display: flex;
+  flex-basis: 50%;
+  position: relative;
+  padding-bottom: 30px;
+}
+.chungchi1:nth-child(2)::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 90%;
+  background-color: #d6c08d;
+  left: -22px;
+}
+.anh {
+  width: 50%;
+}
+.allproject {
+  display: flex;
+  gap: 20px;
+}
+.project {
+  border: solid #e6e0e0;
+  display: flex;
+  flex-direction: column;
+}
+.project h1 {
+  border-top: solid #e7dbdb;
+
+  padding: 20px;
+}
+.project div {
+  display: flex;
+  border-top: solid #f0e8e8;
+  border-bottom: solid #e0d8d8;
+  padding: 20px;
+  font-size: 20px;
+  gap: 30px;
+}
+table {
+  border: 2px solid #d0d0d0;
+
+  border-collapse: collapse;
+}
+td {
+  border-bottom: 2px solid #ddd6d6;
+}
+.footer {
+  display: flex;
+  background-color: #f7f7f7;
+  padding: 30px;
+  gap: 100px;
+  justify-items: center;
+  margin-left: 300px;
+  font-size: 17px;
+}
+a i {
+  font-size: 40px;
+}
+li {
+  list-style-type: none;
+}
+/* căn giữa cho chữ của footer */
+li a {
+  vertical-align: middle;
+}
+/* laptop ne */
+@media screen and (min-width: 992px) {
+  .chungchi1 {
+    display: block;
+  }
+  .chungchi1 .anh {
+    width: 100%;
+  }
+}
+
+.job-item {
+  margin: 0px;
+}
+.hide {
+  display: none;
+}
+.view-more {
+  background-color: #d6c08d;
+  font-size: 30px;
+    border: none;
+    padding:  10px 20px 10px 20px;
+  display: none;
+}
+.job-item:hover .view-more {
+  display: block;
+}
+#form-container{
+  
+}

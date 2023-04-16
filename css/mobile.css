@@ -1,0 +1,49 @@
+/* mobie */
+@media screen and (max-width: 768px) {
+    body {
+    }
+    .avatar {
+      display: none !important;
+    }
+    .container {
+      display: block !important;
+    }
+    nav a {
+      display: block;
+    }
+    #target {
+      width: 100%;
+      padding: 10px;
+    }
+    #personal-info {
+      width: 100%;
+      padding: 10px;
+    }
+    ul {
+      padding-left: 0px !important;
+    }
+    .banner1{
+      background-position: center;
+    }
+    .chungchi{
+      display: block;
+    }
+    .chungchi1{
+      display: block;
+    }
+    .anh{
+      width: 100%;
+    }
+    .chu2 h2{
+font-size: 16px;
+font-weight: bold;
+margin-top: 10px;
+    }
+    .footer{
+      gap: 10px;
+      margin-left: 50px;
+
+    }
+    
+  }
+  
