@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/font.css" />
+    <style>
+      .item1 {
+        grid-area: Primary;
+      }
+      .item2 {
+        grid-area: Timeline;
+      }
+      .item3 {
+        grid-area: Goals;
+      }
+      .item4 {
+        grid-area: Team;
+      }
+      .item5 {
+        grid-area: Scopes;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          "Goals Goals Goals Team Team Team Timeline "
+          " Scopes Scopes Scopes Primary Primary Primary Timeline";
+        gap: 10px;
+        background-color: #ccb5f3;
+        padding: 10px;
+      }
+
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+    </style>
+    <style>
+      .item1 {
+        grid-area: Primary;
+      }
+      .item2 {
+        grid-area: Timeline;
+      }
+      .item3 {
+        grid-area: Goals;
+      }
+      .item4 {
+        grid-area: Team;
+      }
+      .item5 {
+        grid-area: Scopes;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          "Goals Goals Goals Team Team Team Timeline "
+          " Scopes Scopes Scopes Primary Primary Primary Timeline";
+        gap: 10px;
+        background-color: #0514b8;
+        padding: 10px;
+      }
+
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: left;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+      h2 {
+        padding-left: 20px;
+      }
+      h4 {
+        padding-left: 40px;
+      }
+      span {
+        padding-left: 40px;
+      }
+      .item7 {
+        grid-area: in;
+      }
+      .item8 {
+        grid-area: out;
+      }
+      .scopes {
+        display: grid;
+        grid-template-areas: " in out ";
+      }
+      h3 {
+        margin-left: 40px;
+      }
+      .item1 {
+        display: grid;
+        gap: 40px;
+      }
+      .item2 {
+        display: grid;
+      }
+      .row {
+        display: grid;
+
+        width: 100%;
+        overflow: hidden;
+        grid-template-columns: 100px 1fr;
+        border-bottom: 1px solid gray;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+      }
+      h4 {
+        margin: 0;
+      }
+      #team {
+        border: none;
+      }
+      #Timeline {
+        padding-left: 20px;
+      }
+      .number {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #000;
+        background: rgb(149, 41, 179);
+        border-radius: 50%;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="item1">
+        <h2>Primary</h2>
+
+        <span>Ưu tiên 1</span>
+
+        <span>Ưu tiên 2</span>
+
+        <span>Ưu tiên 3</span>
+      </div>
+      <div class="item2">
+        <h2>Timeline</h2>
+        <div class="row" id="Timeline">
+          <div class="number">01</div>
+          <div>
+            <h4>Project Start</h4>
+            <span>Bắt đầu dự án </span>
+          </div>
+        </div>
+        <div class="row" id="Timeline">
+          <div class="number">02</div>
+          <div>
+            <h4>Project Data</h4>
+            <span>Dữ liệu 1</span>
+          </div>
+        </div>
+        <div class="row" id="Timeline">
+          <div class="number">03</div>
+          <div>
+            <h4>Project Data</h4>
+            <span>Dữ liệu 2</span>
+          </div>
+        </div>
+        <div class="row" id="Timeline">
+          <div class="number">04</div>
+          <div>
+            <h4>Project Data</h4>
+            <span>Dữ liệu 3</span>
+          </div>
+        </div>
+        <div class="row" id="Timeline">
+          <div class="number">05</div>
+          <div>
+            <h4>Project Data</h4>
+            <span>Dữ liệu 4</span>
+          </div>
+        </div>
+        <div class="row" id="Timeline">
+          <div class="number">06</div>
+          <div>
+            <h4>Project Data</h4>
+            <span>Dữ liệu 5</span>
+          </div>
+        </div>
+        <div class="row" id="Timeline">
+          <div class="number">07</div>
+          <div>
+            <h4>Project Data</h4>
+            <span>Dữ liệu 6</span>
+          </div>
+        </div>
+        <div class="row" id="Timeline">
+          <div class="number">08</div>
+          <div>
+            <h4>Project Data</h4>
+            <span>Dữ liệu 7</span>
+          </div>
+        </div>
+        <div class="row" id="Timeline">
+          <div class="number">09</div>
+          <div>
+            <h4>Project Data</h4>
+            <span>Dữ liệu 9</span>
+          </div>
+        </div>
+      </div>
+      <div class="item3">
+        <div class="noidung">
+          <h2>Goals</h2>
+          <div class="row">
+            <div class="icon">
+              <i class="icon-star-1"></i>
+            </div>
+            <div>
+              <h4>Goal 1</h4>
+              <span>Luyện css</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="icon">
+              <i class="icon-star-1"></i>
+            </div>
+            <div>
+              <h4>Goal 2</h4>
+              <span>Luyện css</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="icon">
+              <i class="icon-star-1"></i>
+            </div>
+            <div>
+              <h4>Goal 3</h4>
+              <span>Luyện css</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item4">
+        <h2>Team</h2>
+        <div class="row" id="team">
+          <div class="icon">
+            <i class="icon-user"></i>
+          </div>
+          <div>
+            <h4>Member 1</h4>
+            <span>Trần Thanh Trà</span>
+          </div>
+        </div>
+        <div class="row" id="team">
+          <div class="icon">
+            <i class="icon-user"></i>
+          </div>
+          <div>
+            <h4>Member 2</h4>
+            <span>Bành Thị Tạ</span>
+          </div>
+        </div>
+        <div class="row" id="team">
+          <div class="icon">
+            <i class="icon-user"></i>
+          </div>
+          <div>
+            <h4>Member 3</h4>
+            <span>Nguyễn Trần Siêu Nhơn</span>
+          </div>
+        </div>
+      </div>
+      <div class="item5 scopes">
+        <h2>Scopes</h2>
+        <br />
+        <div>
+          <h3>IN</h3>
+          <span>Thông tin dự tuyển của thí sinh</span>
+        </div>
+        <div>
+          <h3>OUT</h3>
+          <span>CV hoàn chỉnh nhiều chức năng</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
