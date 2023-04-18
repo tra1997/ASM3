@@ -36,7 +36,7 @@
     <section id="about" class="bg-grey">
       <div class="container mttt" >
         <div id="target">
-          <h1 class="section-title col-md-12" >Mục tiêu nghề nghiệp</h1>
+          <h1 class="section-title col-md-12 mb-4" >Mục tiêu nghề nghiệp</h1>
           <p>
             Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
             của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
@@ -46,11 +46,13 @@
           </p>
         </div>
         <div id="personal-info">
-          <h1 class="section-title col-md-12">Thông tin cá nhân</h1>
+          <h1 class="section-title col-md-12 mb-4">Thông tin cá nhân</h1>
           <div id="form-container">
-            <h2>Nhập email:</h2>
-            <input type="text" id="email-input" />
-            <button id="submit-btn">Xác nhận</button>
+              <input class="form-control" type="text" id="email-input" />
+              <p class="mt-1">
+                <small>Hãy nhập Email để xác thực</small>
+              </p>
+              <button class="btn btn-primary" id="submit-btn">Xác nhận</button>
           </div>
        
             <ul id="info-container" class="mt-40 info hide" >
@@ -74,223 +76,235 @@
     <section id="job-info">
       <div class="container">
         <div class="row">
-          <div class="job-item col-lg-4 col-md-6">
-            <div class="job-header ">
-              <h1>Kinh nghiệm</h1>
-              <i class="ic-toolbox"></i>
-            </div>
-            <button class="view-more">View More</button>
-            <div class="job-content hide" >
-              <div class="work-detail">
-                <div class="name-work">
-                  <h4>FullStack Developer - Công ty Y</h4>
-                </div>
-                <div class="time-line">
-                  <h5>05/2022 - <span class="recent">Hiện tại</span></h5>
-                </div>
-                <div class="work-content">
-                  <h5>
-                    - Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã
-                    có.<br>
-                    - Phân tích và thiết kế Database, sử dụng các hệ quản trị
-                    CSDL(MySQL, SQLServer, NoSQL,...) và viết được các câu truy
-                    vấn.<br>
-                    - Sử dụng ngôn ngữ server-side(Python,Java,...) để xây dựng
-                    các WebService.
-                  </h5>
-                </div>
+          <div class=" col-lg-4 col-md-6 mt-3 job-flex">
+            <div class="job-item w-100">
+              <div class="job-header ">
+                <h1>Kinh nghiệm</h1>
+                <i class="ic-toolbox"></i>
               </div>
-              <div class="work-detail">
-                <div class="name-work">
-                  <h4>Web Designer - Công ty X</h4>
-                </div>
-                <div class="time-line">
-                  <h5>06/2021 - 04/2022</h5>
-                </div>
-                <div class="work-content">
-                  <h5>
-                    - Thiết kế Website dựa trên yêu cầu của khách hàng.<br>
-                    - Sử dụng các công cụ: Figma, Canva, PTS.
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="job-item col-lg-4 col-md-6">
-            <div class="job-header ">
-              <h1>Học vấn</h1>
-              <i class="ic-pencil"></i>
-            </div>
-            <button class="view-more">View More</button>
-            <div class="job-content hide">
-              <div class="work-detail">
-                <div class="name-work">
-                  <h4>FUNiX</h4>
-                </div>
-                <div class="time-line">
-                  <h5>06/2021 - 05/2022</h5>
-                </div>
-                <div class="work-content">
-                  <h5>
-                    - Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.<br>
-                    - GPA: 9/10
-                  </h5>
-                </div>
-              </div>
-              <div class="work-detail">
-                <div class="name-work">
-                  <h4>Cử nhân - ĐH Kinh Tế Luật</h4>
-                </div>
-                <div class="time-line">
-                  <h5>08/2016 - 07/2019</h5>
-                </div>
-                <div class="work-content">
-                  <h5>
-                    - Chuyên ngành: Kinh tế học.<br>
-                    - GPA: 3.0/4
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="job-item col-lg-4 col-md-6">
-            <div class="job-header">
-              <h1>Hoạt động</h1>
-              <i class="ic-toolbox"></i>
-            </div>
-            <button class="view-more">View More</button>
-            <div class="job-content hide">
-              <div class="work-detail">
-                <div class="name-work">
-                  <h4>FPT Edu Hackathon 2019</h4>
-                </div>
-                <div class="time-line">
-                  <h5>03/2019 - 05/2019</h5>
-                </div>
-                <div class="work-content">
-                  <h5>
-                    - Giải 3 bảng A<br>
-                    - Đề tài: Trang web về phân loại rác thải.
-                  </h5>
-                </div>
-              </div>
-              <div class="work-detail">
-                <div class="name-work">
-                  <h4>Câu lạc bộ Z</h4>
-                </div>
-                <div class="time-line">
-                  <h5>08/2016 - 08/2017</h5>
-                </div>
-                <div class="work-content">
-                  <h5>- Trưởng ban chuyên môn</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="job-item col-lg-4 col-md-6">
-            <div class="job-header">
-              <h1>Sở thích</h1>
-              <i class="ic-telescope"></i>
-            </div>
-            <button class="view-more">View More</button>
-            <div class="job-content hide">
-              <div class="hobbies">
-                <div class="hobbies-item">
-                  <i class="ic-megaphone"></i>
-                  <h5>Âm nhạc</h5>
-                </div>
-                <div class="hobbies-item">
-                  <i class="ic-strategy"></i>
-                  <h5>Chơi game</h5>
-                </div>
-                <div class="hobbies-item">
-                  <i class="ic-hotairballoon"></i>
-                  <h5>Du lịch</h5>
-                </div>
-                <div class="hobbies-item">
-                  <i class="ic-basket"></i>
-                  <h5>Nấu ăn</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="job-item col-lg-4 col-md-6">
-            <div class="job-header">
-              <h1>Ngôn ngữ</h1>
-              <i class="ic-mic"></i>
-            </div>
-            <button class="view-more">View More</button>
-            <div class="job-content hide">
-              <div class="language">
-                <div class="language-item">
-                  <div class="language-name">
-                    <h5>Tiếng Anh - IELTS 7.0</h5>
+              <button class="view-more">View More</button>
+              <div class="job-content hide" >
+                <div class="work-detail">
+                  <div class="name-work">
+                    <h4>FullStack Developer - Công ty Y</h4>
                   </div>
-                  <div class="rate">
-                    <div class="active"></div>
-                    <div class="active"></div>
-                    <div class="non-active"></div>
+                  <div class="time-line">
+                    <h5>05/2022 - <span class="recent">Hiện tại</span></h5>
+                  </div>
+                  <div class="work-content">
+                    <h5>
+                      - Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã
+                      có.<br>
+                      - Phân tích và thiết kế Database, sử dụng các hệ quản trị
+                      CSDL(MySQL, SQLServer, NoSQL,...) và viết được các câu truy
+                      vấn.<br>
+                      - Sử dụng ngôn ngữ server-side(Python,Java,...) để xây dựng
+                      các WebService.
+                    </h5>
                   </div>
                 </div>
-                <div class="language-item">
-                  <div class="language-name">
-                    <h5>Tiếng Nhật - JLPT N4</h5>
+                <div class="work-detail">
+                  <div class="name-work">
+                    <h4>Web Designer - Công ty X</h4>
                   </div>
-                  <div class="rate">
-                    <div class="active"></div>
-                    <div class="non-active"></div>
-                    <div class="non-active"></div>
+                  <div class="time-line">
+                    <h5>06/2021 - 04/2022</h5>
+                  </div>
+                  <div class="work-content">
+                    <h5>
+                      - Thiết kế Website dựa trên yêu cầu của khách hàng.<br>
+                      - Sử dụng các công cụ: Figma, Canva, PTS.
+                    </h5>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="job-item col-lg-4 col-md-6">
-            <div class="job-header">
-              <h1>Kỹ năng</h1>
-              <i class="ic-tools-2"></i>
+          <div class=" col-lg-4 col-md-6 mt-3 job-flex">
+            <div class="job-item w-100">
+              <div class="job-header ">
+                <h1>Học vấn</h1>
+                <i class="ic-pencil"></i>
+              </div>
+              <button class="view-more">View More</button>
+              <div class="job-content hide">
+                <div class="work-detail">
+                  <div class="name-work">
+                    <h4>FUNiX</h4>
+                  </div>
+                  <div class="time-line">
+                    <h5>06/2021 - 05/2022</h5>
+                  </div>
+                  <div class="work-content">
+                    <h5>
+                      - Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.<br>
+                      - GPA: 9/10
+                    </h5>
+                  </div>
+                </div>
+                <div class="work-detail">
+                  <div class="name-work">
+                    <h4>Cử nhân - ĐH Kinh Tế Luật</h4>
+                  </div>
+                  <div class="time-line">
+                    <h5>08/2016 - 07/2019</h5>
+                  </div>
+                  <div class="work-content">
+                    <h5>
+                      - Chuyên ngành: Kinh tế học.<br>
+                      - GPA: 3.0/4
+                    </h5>
+                  </div>
+                </div>
+              </div>
             </div>
-            <button class="view-more">View More</button>
-            <div class="job-content hide">
-              <div class="skill">
-                <div class="skill-item">
-                  <div class="skill-name">
-                    <h5>HTML/CSS: Fundamental</h5>
+          </div>
+          <div class=" col-lg-4 col-md-6 mt-3 job-flex">
+            <div class="job-item w-100">
+              <div class="job-header">
+                <h1>Hoạt động</h1>
+                <i class="ic-toolbox"></i>
+              </div>
+              <button class="view-more">View More</button>
+              <div class="job-content hide">
+                <div class="work-detail">
+                  <div class="name-work">
+                    <h4>FPT Edu Hackathon 2019</h4>
                   </div>
-                  <div class="rate">
-                    <div class="active"></div>
-                    <div class="non-active"></div>
-                    <div class="non-active"></div>
+                  <div class="time-line">
+                    <h5>03/2019 - 05/2019</h5>
                   </div>
-                </div>
-                <div class="skill-item">
-                  <div class="skill-name">
-                    <h5>Javascript: Intermediate</h5>
-                  </div>
-                  <div class="rate">
-                    <div class="active"></div>
-                    <div class="active"></div>
-                    <div class="non-active"></div>
-                  </div>
-                </div>
-                <div class="skill-item">
-                  <div class="skill-name">
-                    <h5>NodeJS: Intermediate</h5>
-                  </div>
-                  <div class="rate">
-                    <div class="active"></div>
-                    <div class="active"></div>
-                    <div class="non-active"></div>
+                  <div class="work-content">
+                    <h5>
+                      - Giải 3 bảng A<br>
+                      - Đề tài: Trang web về phân loại rác thải.
+                    </h5>
                   </div>
                 </div>
-                <div class="skill-item">
-                  <div class="skill-name">
-                    <h5>Bootstrap 5: Fundamental</h5>
+                <div class="work-detail">
+                  <div class="name-work">
+                    <h4>Câu lạc bộ Z</h4>
                   </div>
-                  <div class="rate">
-                    <div class="active"></div>
-                    <div class="non-active"></div>
-                    <div class="non-active"></div>
+                  <div class="time-line">
+                    <h5>08/2016 - 08/2017</h5>
+                  </div>
+                  <div class="work-content">
+                    <h5>- Trưởng ban chuyên môn</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-4 col-md-6 mt-3 job-flex">
+            <div class="job-item w-100">
+              <div class="job-header">
+                <h1>Sở thích</h1>
+                <i class="ic-telescope"></i>
+              </div>
+              <button class="view-more">View More</button>
+              <div class="job-content hide">
+                <div class="hobbies">
+                  <div class="hobbies-item">
+                    <i class="ic-megaphone"></i>
+                    <h5>Âm nhạc</h5>
+                  </div>
+                  <div class="hobbies-item">
+                    <i class="ic-strategy"></i>
+                    <h5>Chơi game</h5>
+                  </div>
+                  <div class="hobbies-item">
+                    <i class="ic-hotairballoon"></i>
+                    <h5>Du lịch</h5>
+                  </div>
+                  <div class="hobbies-item">
+                    <i class="ic-basket"></i>
+                    <h5>Nấu ăn</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-4 col-md-6 mt-3 job-flex">
+            <div class="job-item w-100">
+              <div class="job-header">
+                <h1>Ngôn ngữ</h1>
+                <i class="ic-mic"></i>
+              </div>
+              <button class="view-more">View More</button>
+              <div class="job-content hide">
+                <div class="language">
+                  <div class="language-item">
+                    <div class="language-name">
+                      <h5>Tiếng Anh - IELTS 7.0</h5>
+                    </div>
+                    <div class="rate">
+                      <div class="active"></div>
+                      <div class="active"></div>
+                      <div class="non-active"></div>
+                    </div>
+                  </div>
+                  <div class="language-item">
+                    <div class="language-name">
+                      <h5>Tiếng Nhật - JLPT N4</h5>
+                    </div>
+                    <div class="rate">
+                      <div class="active"></div>
+                      <div class="non-active"></div>
+                      <div class="non-active"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-4 col-md-6 mt-3 job-flex">
+            <div class="job-item w-100">
+              <div class="job-header">
+                <h1>Kỹ năng</h1>
+                <i class="ic-tools-2"></i>
+              </div>
+              <button class="view-more">View More</button>
+              <div class="job-content hide">
+                <div class="skill">
+                  <div class="skill-item">
+                    <div class="skill-name">
+                      <h5>HTML/CSS: Fundamental</h5>
+                    </div>
+                    <div class="rate">
+                      <div class="active"></div>
+                      <div class="non-active"></div>
+                      <div class="non-active"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-name">
+                      <h5>Javascript: Intermediate</h5>
+                    </div>
+                    <div class="rate">
+                      <div class="active"></div>
+                      <div class="active"></div>
+                      <div class="non-active"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-name">
+                      <h5>NodeJS: Intermediate</h5>
+                    </div>
+                    <div class="rate">
+                      <div class="active"></div>
+                      <div class="active"></div>
+                      <div class="non-active"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-name">
+                      <h5>Bootstrap 5: Fundamental</h5>
+                    </div>
+                    <div class="rate">
+                      <div class="active"></div>
+                      <div class="non-active"></div>
+                      <div class="non-active"></div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -445,43 +459,55 @@
         </div> -->
       </div>
     </section>
-    <section id="certificate " class="bg-grey">
+    <section id="certificate" class="bg-grey">
       <div class="container ">
         <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+        <div class="row section-border">
+          <div class=" col-lg-6 col-md-6 mt-4">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="anh"><img src="./images/Cert_WEB.png" alt=""></div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="chu2">
+                  <h5>CHỨNG CHỈ LẬP TRÌNH WEB-FUNIX</h5>
+                  <p>- Chứng chỉ thuộc chương trình CCDN</p>
+                  <p>- GPA: 8.6</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-6 col-md-6 mt-4 section-right">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="anh"><img src="./images/Cert_PRF.png" alt=""></div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="chu2">
+                  <h5>CHỨNG CHỈ LẬP TRÌNH JAVASCRIP - FUNIX</h5>
+                  <p>- Chứng chỉ thuộc chưng trình CCDN</p>
+                  <p>- GPA: 8.9</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="row">
-        
-          <div class=" col-lg-6 col-md-6">
-            <div class="chungchi1">
-              <div class="anh"><img src="./images/Cert_WEB.png" alt=""></div>
-              <div class="chu2"><h2>CHỨNG CHỈ LẬP TRÌNH WEB-FUNIX</h2>
-              <p>- Chứng chỉ thuộc chương trình CCDN</p>
-              <p>- GPA: 8.6</p>
+          <div class=" col-lg-6 col-md-6 mt-4">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="anh"><img src="./images/Cert_DBI.png" alt=""></div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="chu2">
+                  <h5>CHỨNG CHỈ THIẾT KẾ DATABASE - FUNIX</h5>
+                  <p>- Chứng chỉ thuộc chưng trình CCDN</p>
+                  <p>- GPA: 8.0</p>
+                </div>
+              </div>
             </div>
           </div>
-          </div>
-          <div class=" col-lg-6 col-md-6">
-            <div class="chungchi1">
-              <div class="anh"><img src="./images/Cert_PRF.png" alt=""></div>
-              <div class="chu2"><h2>CHỨNG CHỈ LẬP TRÌNH JAVASCRIP - FUNIX</h2>
-              <p>- Chứng chỉ thuộc chưng trình CCDN</p>
-              <p>- GPA: 8.9</p>
-            </div>
-          </div>
-        </div> 
-      
-        
-          <div class=" col-lg-6 col-md-6">
-            <div class="chungchi1">
-              <div class="anh"><img src="./images/Cert_DBI.png" alt=""></div>
-              <div class="chu2"><h2>CHỨNG CHỈ THIẾT KẾ DATABASE - FUNIX</h2>
-              <p>- Chứng chỉ thuộc chưng trình CCDN</p>
-              <p>- GPA: 8.0</p>
-            </div>
-          </div>
-          </div>
-          
-        
-     
+        </div>
       </div>
       </div>
     </section>

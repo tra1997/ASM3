@@ -18,7 +18,7 @@ i {
 }
 .banner1 {
   background-image: url("../images/banner.jpg");
-  height: 350px;
+  height: 650px;
   min-width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@ i {
   justify-content: center;
 }
 #nav-bar .container a {
-  padding: 30px 10px;
+  padding: 5px 10px;
   color: black;
   text-decoration: none;
   border-left: 1px solid #d0d0d0;
@@ -75,8 +75,8 @@ i {
 #target,
 #personal-info {
   width: 50%;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 #target {
   padding-right: 50px;
@@ -114,6 +114,7 @@ i {
 }
 .work-detail {
   padding: 20px 40px;
+  padding-top: 0;
 }
 .name-work {
   position: relative;
@@ -243,11 +244,12 @@ i {
 .chungchi .row:first-child {
   border-bottom: 1px solid #d6c08d;
 }
-.chungchi1 {
-  display: flex;
-  flex-basis: 50%;
-  position: relative;
-  padding-bottom: 30px;
+.section-border {
+  border-bottom: 1px solid #f26f1b;
+}
+.section-right {
+  border-left: 1px solid #f26f1b;
+  padding-left: 10px;
 }
 .chungchi1:nth-child(2)::before {
   content: "";
@@ -257,9 +259,6 @@ i {
   height: 90%;
   background-color: #d6c08d;
   left: -22px;
-}
-.anh {
-  width: 50%;
 }
 .allproject {
   display: flex;
@@ -272,7 +271,7 @@ i {
 }
 .project h1 {
   border-top: solid #e7dbdb;
-
+  font-size: 24px;
   padding: 20px;
 }
 .project div {
@@ -283,13 +282,16 @@ i {
   font-size: 20px;
   gap: 30px;
 }
-table {
-  border: 2px solid #d0d0d0;
-
-  border-collapse: collapse;
+tr {
+  border-bottom: 1px solid #e7dbdb !important;
 }
 td {
-  border-bottom: 2px solid #ddd6d6;
+  padding: 10px;
+  vertical-align: top;
+}
+tr td:first-child {
+  font-weight: bold;
+  width: 110px;
 }
 .footer {
   display: flex;
@@ -311,15 +313,14 @@ li a {
   vertical-align: middle;
 }
 /* laptop ne */
-@media screen and (min-width: 992px) {
-  .chungchi1 {
-    display: block;
-  }
-  .chungchi1 .anh {
-    width: 100%;
-  }
+#nav-bar,
+#about,
+#job-info,
+#certificate,
+#project {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-
 .job-item {
   margin: 0px;
 }
@@ -328,14 +329,16 @@ li a {
 }
 .view-more {
   background-color: #d6c08d;
-  font-size: 30px;
-    border: none;
-    padding:  10px 20px 10px 20px;
-  display: none;
+  border-radius: 8px;
+  font-size: 20px;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  visibility: hidden;
 }
 .job-item:hover .view-more {
-  display: block;
+  visibility: inherit;
 }
-#form-container{
-  
+#form-container {
 }
